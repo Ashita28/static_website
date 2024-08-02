@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    background-color: #6F6AF7;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem 3rem;
+}
+
+button{
+    border: none;
+}
+
+.icon{
+    height: 2rem;
+}
+
+li{
+    list-style: none;
+}
+
+#nav-more{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow{
+    height: 0.2rem;
+}
+
+.options-cls{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2.5em;
+    align-items: center;
+}
+
+.search-cls{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 0.5px solid gray;
+    border-radius: 1.5rem;
+    width: 17rem;
+    background-color: white;
+    padding: 0.7rem;
+    border: none;
+}
+
+.search{
+    border-radius: 1.5rem;
+    width: 17rem;
+    border: none;
+    outline: none;
+    padding-left: 0.2rem;
+}
+
+.search-icon{
+    height: 1rem;
+}
+
+.menu{
+    height: 1.5rem;
+}
+
+.sub1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    gap: 1rem;
+}
+
+.pic1{
+    height: 18.5rem;
+}
+
+.textbox{
+    resize: none;
+    width: 35rem;
+    height: 15rem;
+    padding: 1rem;
+    margin-right: 3rem;
+    background-color: #E5D8FF;
+    color: #6F7373;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 5px #6F7373 inset;
+    border: transparent;
+}
+
+.sub2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 4rem;
+    gap: 4rem;
+}
+
+.card{
+    border: 1px solid black;
+    width: 9rem;
+    height: 2rem;
+    padding: 1.5rem 1rem;
+    font-family: 'DM Sans';
+    font-weight: bold;
+    border-radius: 0.2rem;
+    box-shadow: 1px 1px 5px #6F7373;
+    border: transparent;
+    color: #FFFFFF;
+
+}
+
+#card1{
+    background-color: #929DFF;
+}
+
+#card2{
+    background-color: #734CF2;
+}
+
+#card3{
+    background-color: #D288FF;
+}
+
+#card4{
+    background-color: #000000;
+}
+
+.connect-cls{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 0.2rem;
+    position: fixed;
+    top: 11rem;
+    right: 0;
+    z-index: 2000;
+}
+
+.subcontact{
+    height: 3rem;
+}
+
+.abs-cls{
+    position: absolute;
+    z-index: 1000;
+    right: 7rem;
+    margin-top: 3.5rem;
+}
+
+.call{
+    height: 5.5rem;
+    position: fixed;
+    right: 10rem;
+    top: 31.5rem;
+
+}
+
+.sub3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 1rem;
+    background-color: #483EFF;
+    margin: 5rem 11rem;
+    padding: 1rem;
+    padding-left: 5.5rem;
+    height: 20rem;
+}
+
+.btns{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 1rem;
+}
+
+#btn{
+    width: 9rem;
+    height: 3.3rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: #BCE0F6;
+    color: #3a3a3a;
+    font-weight: bold;
+    border: none;
+    box-shadow: 1px 1px 5px #000000;
+}
+
+
+.btn1{
+    width: 9rem;
+    height: 3.3rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: #483EFF;
+    color: #FFFFFF;
+    font-weight: bold;
+    border: 3px solid #FFFFFF ;
+}
+
+.info{
+    background-color: #FFFFFF;
+    width: 40rem;
+    border-radius: 1rem;
+    padding: 2rem;
+    color: #04285A;
+}
+
+.heading{
+    padding: 1rem 2rem;
+    font-family: 'Inter';
+    font-size: 2rem;
+}
+
+.more{
+    padding: 0.3rem 3rem;
+    font-weight: 600;
+}
+
+.btn2{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    padding-top: 4rem;
+}
+
+.next-cls{
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 0.7rem 1.5rem;
+    border: none;
+    border-radius: 0.3rem;
+}
+
+.btn-cls{
+    height: 0.5rem;
+}
